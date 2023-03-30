@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* body .form-container {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+* body .form-container h1 {
+  color: whitesmoke;
+}
+* body .form-container .contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 30vw;
+  height: 40vw;
+  background-color: black;
+}
+* body .form-container .contact-form input {
+  height: 5vh;
+  width: 20vw;
+  background-color: black;
+  border: none;
+  border-bottom: 1px solid rgb(161, 157, 157);
+  color: white;
+}
+* body .form-container .contact-form textarea {
+  width: 20vw;
+  background-color: black;
+  border: 1px solid rgb(161, 157, 157);
+  border-radius: 10px;
+  color: white;
+}
+* body .form-container .contact-form #submit {
+  border: 1px solid rgb(80, 77, 77);
+  color: rgb(67, 173, 138);
+  border-radius: 10px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
